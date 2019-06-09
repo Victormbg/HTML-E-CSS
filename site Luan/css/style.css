@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 1920px;
+	height: 1080px;
+	background-color: #7D4990;
+}
+
+#container {
+	width: 70%;
+	height: 100%;
+	margin: auto;
+	background-color: green;
+}
+
+#cabecalho {
+	width: 100%;
+	height: 20%;
+	background-color: red;
+}
+
+#logo{
+	
+	width: 25%;
+	height: 100%;
+	background-color: #12B49D;
+	float: left;
+}
+
+#navegacao {
+	width: 75%;
+	height: 100%;
+	background-color: #909090;
+	float: right;
+}
+
+#corpo {
+	width: 100%;
+	height: 100%;
+	background-color: aliceblue;
+}
+
+#pesquisa {
+	width: 25%;
+	height: 100%;
+	background-color: aqua;
+	float: left;
+}
+
+#conteudo {
+	width: 50%;
+	height: 100%;
+	background-color: #B56A6B;
+	float: left;
+}
+
+#propaganda {
+	width: 25%;
+	height: 100%;
+	background-color: #4C2B82;
+	float: right;
+}
+
+#rodape {
+	width: 100%;
+	height: 25%;
+	float: left;
+	background-color: #F173EC;
+}
+
+p {
+	
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 20px;
+	color: black;
+}
+
+#textoPrincipal{
+	
+	color: brown;
+}
+
+
+#Lojas{
+	color: chartreuse;
+}
+
+p.small{
+	text-align: center;
+	font-style: italic;
+}
+

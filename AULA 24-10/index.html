@@ -1,0 +1,103 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Site</title>
+<link type="text/css" rel="stylesheet" href="css/estilo.css" />
+<script src="script/jquery.min.js"></script>
+<script src="script/jquery.localscroll-1.2.7-min.js"></script>
+<script src="script/jquery.parallax-1.1.3.js"></script>
+<script src="script/jquery.scrollTo-1.4.2-min.js"></script>
+<link rel="stylesheet" type="text/css" href="script/vegas.min.css" />
+<script src="script/vegas.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('.menu').localScroll(800);	
+
+
+$("#quem-somos .imagem").vegas({
+    timer:false,
+	delay:60,
+	transition: 'flash2',
+	slides: [
+        { src: "img/bar 1.jpg" },
+        { src: "img/bar 2.jpg" },
+        { src: "img/bar 3.jpg" }
+        ]
+});	
+})
+</script>
+</head>
+<body>
+<nav class="menu">
+	<ul>
+		<li><a href="#home">Home</a></li>
+		<li><a href="#quem-somos">Quem Somos</a></li>
+		<li><a href="#paes">Pães</a></li>
+		<li><a href="#bolos">Bolos</a></li>
+		<li><a href="#cafes">Cafés</a></li>
+		<li><a href="#sucos">Sucos</a></li>
+		<li><a href="#sanduiches">Sanduíches</a></li>
+		<li><a href="#cerveja">Cervejas</a></li>
+	</ul>
+</nav>
+
+<section id="home"></section>
+<section id="quem-somos">
+	<div class="texto">
+		<h1>QUEM SOMOS</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sequi magnam labore quibusdam optio porro dolorem vel eum autem beatae explicabo est, officiis quia vero maxime, tempore, eligendi esse commodi.</p>
+	</div>
+	<div class="imagem"></div>
+</section>
+<section id="paes">
+	<div class="imagem"></div>
+	<div class="texto">
+		<h1>PÃES</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sequi magnam labore quibusdam optio porro dolorem vel eum autem beatae explicabo est, officiis quia vero maxime, tempore, eligendi esse commodi.</p>
+	</div>
+</section>
+<section id="bolos">
+	<div class="texto">
+	<h1>BOLOS</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, nam id sunt in, quidem ducimus debitis porro maxime sint aspernatur eum, dolorum quod velit provident ex fugiat iste. Tempora, animi.</p>	
+	</div>
+	<div class="imagem"></div>
+</section>
+<section id="cafes">
+	<div class="imagem"></div>
+	<div class="texto">
+		<h1>CAFÉS</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reiciendis sapiente, rem sint cupiditate, ad pariatur deleniti vitae unde odio tenetur repellendus consequuntur sit deserunt. Voluptas blanditiis sunt neque. Omnis!</p>
+	</div>
+</section>
+<section id="sucos">
+	<div class="texto">
+		<h1>SUCOS</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque perspiciatis dicta placeat quo, cumque, atque itaque distinctio quibusdam! Odit cupiditate magni qui placeat facere officiis similique culpa, suscipit beatae ipsam!</p>
+	</div>
+	<div class="imagem"></div>
+</section>
+<section id="sanduiches">
+	<div class="imagem"></div>
+	<div class="texto">
+		<h1>SANDUÍCHES</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quod nisi, id consequatur. Fugiat totam nam expedita voluptas. Sit aspernatur porro, dignissimos eum dicta nulla deleniti labore dolor veritatis officiis.</p>
+	</div>
+</section>
+<section id="cerveja">
+	<div class="texto">
+		<h1>CERVEJA</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus eligendi quam facere, aliquid ad dolorum nesciunt ipsam possimus excepturi doloribus, sunt incidunt, blanditiis culpa. Ipsum minima totam in eligendi dolorem.</p>
+	</div>
+	<div class="imagem"></div>
+</section>
+
+<footer class="rodape"></footer>
+
+
+
+
+
+</body>
+</html>

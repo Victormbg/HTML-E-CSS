@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	width: 0;
+	height: 0;
+}
+
+body{
+	width: 1920px;
+	height: 1080px;
+	background-color: blue;
+}
+
+#container{
+	width: 100%;
+	height: auto;
+	background-color: aquamarine;
+}
+
+#cabecalhoPrincipal{
+	width: 100%;
+	height: 5%;
+	background-color: #C3C3C3;
+	margin: auto;
+}
+
+#navegacaoEsquerda{
+	float: left;
+	height:auto;
+}
+
+#navegacaoDireita{
+	float: right;
+	height: 100%;
+}
+
+#logo_menu{
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
